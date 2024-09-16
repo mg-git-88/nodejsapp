@@ -4,7 +4,7 @@ const hasHobbies = true;
 
 age = 37;
 
-function summarizeUser(userName, userAge, userHasHobbies) {
+const summarizeUser = (userName, userAge, userHasHobbies) => {
     return (
         'Name is ' +
         userName + 
@@ -14,5 +14,11 @@ function summarizeUser(userName, userAge, userHasHobbies) {
         userHasHobbies
     );
 }
+
+const add = (a, b) => {
+    return a + b;
+}
+
+console.log(add(1, 2));
 
 console.log(summarizeUser(name, age, hasHobbies));
